@@ -9,3 +9,6 @@
 
 
 ## Some thought on why Kalman filter would work
+1. Trackable influence: Intuitively, our measurement should reflect the change of state given system dynamics and known external influence
+2. Tntrackable influence: there are some factors which aren't taken into consideration. Those factors are described as noise when incorporate observation/measurements into prediction. 
+3. Will estimation accuracy be improved if we make multiple measurements?: 
